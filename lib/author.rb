@@ -23,6 +23,7 @@ class Author
       array = author.posts
       post_count += array.length
     end
+    post_count
   end
 
 
