@@ -8,4 +8,11 @@ class Post
   def self.all
     @@all
   end
+def author_name
+  if @author == nil
+    nil
+  else
+    @author.name
+  end
+end
 end
