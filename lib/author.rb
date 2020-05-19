@@ -16,7 +16,7 @@ class Author
   def posts
     Post.all.select {|post| post.author == self}
   end
-  
+
   def self.post_count
     post_count = 0
     @@all_authors.each do |author|
@@ -25,5 +25,5 @@ class Author
     end
   end
 
-  
+
 end
