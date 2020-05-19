@@ -21,9 +21,9 @@ class Author
     @@all_authors.each do |author|
       array = author.posts
       post_count += array.length
-      
+
     end
   end
-    
+
   end
 end
